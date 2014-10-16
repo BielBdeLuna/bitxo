@@ -1,0 +1,9 @@
+textures/bl/model/weapons/arms/arm
+{
+    diffusemap textures/models/arms/arm_d.tga
+}
+
+textures/bl/model/weapons/arms/hand
+{
+    diffusemap textures/models/arms/hand_d.tga
+}
