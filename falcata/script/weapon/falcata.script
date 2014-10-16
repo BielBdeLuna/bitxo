@@ -1,0 +1,167 @@
+/***********************************************************************
+
+falcata_combat
+
+***********************************************************************/
+
+// blend times
+#define FALCATA_IDLE_TO_LOWER		4
+#define FALCATA_IDLE_TO_SWING		0
+#define FALCATA_RAISE_TO_IDLE		4
+#define FALCATA_SWING_TO_IDLE		1
+#define TIME_TO_HEADBUTT            0.15
+#define HEADBUTT_TO_IDLE            0.15
+#define TIME_FOR_NEXT_LEVEL         1.5
+
+object falcata_combat : weapon_base {
+	float		last_attack_time;
+    float       current_time;
+    float       attack_level;
+    boolean     attack_performed;
+    boolean     headbutt;
+
+	void		init();
+	
+	void		Raise();
+    void		Sheathe();
+	void		Idle();
+	void		Swing();
+    void        Headbutt();
+	void		ExitCinematic();
+	string		GetSwingAnim();
+    string      GetHeadbuttAnim();
+};
+
+void falcata_combat::init() {   
+    last_attack_time = 0;   
+    attack_level = 0;
+    attack_performed = false;
+    headbutt = false;
+	weaponState( "Raise", 0 );
+}
+
+void falcata_combat::Raise() {
+	weaponRising();
+	playAnim( ANIMCHANNEL_ALL, "raise" );
+	waitUntil( animDone( ANIMCHANNEL_ALL, FALCATA_RAISE_TO_IDLE ) );
+	weaponState( "Idle", FALCATA_RAISE_TO_IDLE );
+}
+
+void falcata_combat::Sheathe() {
+	weaponLowering();
+	playAnim( ANIMCHANNEL_ALL, "sheathe" );
+	waitUntil( animDone( ANIMCHANNEL_ALL, 0 ) );
+	weaponHolstered();
+	waitUntil( WEAPON_RAISEWEAPON );
+	weaponState( "Raise", 0 );
+}
+
+void falcata_combat::Idle() {
+	weaponReady();
+	playCycle( ANIMCHANNEL_ALL, "idle" );
+	while( 1 ) {
+		if ( WEAPON_LOWERWEAPON ) {
+			weaponState( "Sheathe", FALCATA_IDLE_TO_LOWER );
+		}
+		if ( WEAPON_ATTACK || WEAPON_NETFIRING ) {
+			weaponState( "Swing", FALCATA_IDLE_TO_SWING );
+		}
+        if ( WEAPON_RELOAD ) {
+            weaponState( "Headbutt", TIME_TO_HEADBUTT );
+        }
+		waitFrame();
+	}
+}
+
+void falcata_combat::Swing() {
+	do {
+        //if ( !attack_performed ) {
+        //    attack_performed = true;
+            //playAnim( ANIMCHANNEL_ALL, GetSwingAnim() );
+        
+            if ( attack_level == 0 ) {
+                playAnim( ANIMCHANNEL_ALL, "attack_01" );
+		        sys.wait( 0.5 );
+            } else {
+                if ( attack_level == 1 ) {
+                    playAnim( ANIMCHANNEL_ALL, "attack_02" );
+                    sys.wait( 0.36 );
+                } else {
+                    playAnim( ANIMCHANNEL_ALL, "attack_03" );
+                    sys.wait( 0.65 );
+                }
+            }
+		    melee();
+        //}
+		waitUntil( animDone( ANIMCHANNEL_ALL, FALCATA_SWING_TO_IDLE ) );
+        //attack_performed = false;
+        if ( attack_level == 2 ) {
+            attack_level = 0;
+        } else {
+            attack_level = attack_level + 1;
+        }
+	} while ( WEAPON_ATTACK || WEAPON_NETFIRING );
+	weaponState( "Idle", FALCATA_SWING_TO_IDLE );
+}
+
+void falcata_combat::Headbutt() {
+    playAnim( ANIMCHANNEL_ALL, GetHeadbuttAnim() );
+    sys.wait( 0.2 );
+    melee();
+    waitUntil( animDone( ANIMCHANNEL_ALL, HEADBUTT_TO_IDLE ) );
+    weaponState( "Idle", HEADBUTT_TO_IDLE );
+}
+
+void falcata_combat::ExitCinematic() {
+	weaponState( "Idle", 0 );
+}
+string falcata_combat::GetHeadbuttAnim() {
+
+    string anim;
+
+    if ( headbutt ) {
+        headbutt = false;
+        anim = "headbutt_02";
+    } else {
+        headbutt = true;
+        anim = "headbutt_01";
+    }
+    return anim;
+}
+
+
+string falcata_combat::GetSwingAnim() {
+    /*
+    string anim;
+    float  delta;
+
+    current_time = sys.getTime();
+
+    delta = current_time - last_attack_time;
+
+    if ( delta > TIME_FOR_NEXT_LEVEL ) {
+        attack_level = 0;
+    } else {
+        if ( attack_level == 0 ) {          
+            anim = "attack_01";
+        } else {
+            if ( attack_level == 1 ) {
+                anim = "attack_02";
+            } else {
+                anim = "attack_03";
+            }
+        }
+        sys.print ( "performing attack: '" + anim + "'\n" );
+        sys.print ( "attack_level: " + attack_level + "\n" );
+        if ( attack_level == 2 ) {
+            attack_level = 0;
+        } else {
+            attack_level = attack_level + 1;
+        }
+         
+    }
+
+    last_attack_time = current_time;
+    return anim;
+    */   
+}

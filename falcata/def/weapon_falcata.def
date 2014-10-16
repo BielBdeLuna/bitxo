@@ -1,0 +1,113 @@
+model viewmodel_falcata {
+	mesh						models/md5/weapons/weapon_falcata/mesh.md5mesh
+	
+	anim raise 					models/md5/weapons/weapon_falcata/raise.md5anim {
+        frame 3                 sound_weapon fist_raise
+		frame 13                sound_weapon gladius/raise
+	}
+    anim sheathe 				models/md5/weapons/weapon_falcata/sheathe.md5anim {
+        frame 7                 sound_weapon fist_raise
+		frame 14		        sound_weapon gladius/sheathe
+	}
+    
+	anim idle					models/md5/weapons/weapon_falcata/idle.md5anim
+
+    anim attack_01              models/md5/weapons/weapon_falcata/attack_01.md5anim {
+        frame 1                 sound_weapon fist_raise
+        frame 8                 sound_weapon fist_whoosh
+    }
+    anim attack_02              models/md5/weapons/weapon_falcata/attack_02.md5anim {
+        frame 3                 sound_weapon fist_raise
+        frame 13                sound_weapon fist_whoosh 
+    }
+    anim attack_03              models/md5/weapons/weapon_falcata/attack_03.md5anim {
+        frame 3                 sound_weapon fist_raise
+        frame 16                sound_weapon fist_whoosh       
+    }
+    anim headbutt_01            models/md5/weapons/weapon_falcata/headbutt_01.md5anim {
+        frame 1                 sound_weapon fist_whoosh
+    }
+    anim headbutt_02            models/md5/weapons/weapon_falcata/headbutt_02.md5anim {
+        frame 1                 sound_weapon fist_whoosh
+    }
+}
+
+entityDef weapon_falcata {
+	"model_view" 				"viewmodel_falcata"
+
+	"inv_name"					"Falcata"
+	"inv_weapon"				"weapon_shotgun"
+	"icon"						"guis/assets/hud/wpn_2"
+
+	"weapon_scriptobject"		"falcata_combat"
+	"def_melee"					"damage_falcata_standard"
+	"melee_distance"			"64"
+	"ammoType"					""
+	"ammoRequired"				"0"
+	"clipSize"					"0"
+	"mtr_flashShader"			""
+	"flashColor"				""
+	"flashRadius"				"0"
+	"silent_fire"				"1"
+
+	"hide_time"					"0.3"								// time to hide weapon when talking to npcs or looking at guis
+	"hide_distance"				"-15"								// distance to offset weapon when talking to npcs or looking at guis
+
+	"impact_damage_effect"		"1"
+
+	"snd_acquire"				"gladius/aquire"
+	"skin_invisible"			""
+	
+	"stealing"					"1"					// this weapon steals other player weapon
+}
+
+entityDef moveable_item_falcata {
+	"inherit"					"weapon_shotgun"
+	"spawnclass"				"idMoveableItem"
+    "model"						"models/falcata.ase"
+	"density"					"0.05"
+	"friction"					"0.2"
+	"bouncyness"				"0"
+    "snd_bounce"				"impact_sword_hit_metal"
+}
+
+
+entityDef damage_falcata_standard {
+	"damage"			"30"
+	"kickDir"			"-1 0 0"
+
+	"mtr_blob"			"genericDamage"
+	"blob_time"			"300"
+	"blob_size"			"400"
+	"blob_offset_x"		"400"
+
+	"knockback"			"80"
+	"push"				"20000"
+
+	"gib"				"1"
+	"smoke_wound_flesh"	"burstysquirt.prt"
+	"mtr_wound_flesh"	"textures/decals/hurt02"
+
+	"kick_time"			"400"
+	"kick_amplitude"	"1"
+
+	"dv_time"			"100"
+
+	"snd_metal"			"impact_sword_hit_metal_hard"
+	"snd_ricochet"		"impact_sword_hit_metal"
+	"snd_flesh"			"impact_sword_hit_flesh"
+	"snd_stone"			"impact_sword_hit_metal_hard"
+	"snd_wood"			"impact_sword_hit_metal"
+	"snd_cardboard"		"impact_sword_hit_metal"
+	"snd_glass"			"bullet_impact_glass"
+	"snd_liquid"	    "bullet_impact_liquid"
+	"snd_plastic"		"impact_sword_hit_metal"
+	"snd_shatter"		"melee_impact_glass"	
+	
+	"snd_hit"			"impact_sword_hit_flesh_and_flesh_armor"
+	//"snd_miss"			"fist_whoosh"
+    "snd_miss"			""
+	"snd_hit_berserk"	"impact_sword_hit_flesh_and_flesh_armor"
+}
+
+   

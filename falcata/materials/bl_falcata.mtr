@@ -1,0 +1,5 @@
+textures/bl/model/falcata
+{
+    ricochet
+	diffusemap textures/models/falcata/falcata_d.tga
+}
