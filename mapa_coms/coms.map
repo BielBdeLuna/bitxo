@@ -2,8 +2,8 @@ Version 2
 // entity 0
 {
 "classname" "worldspawn"
-"editor_drLastCameraPos" "1.73817e-14 5.88361e-15 300"
-"editor_drLastCameraAngle" "45.3 100.8 0"
+"editor_drLastCameraPos" "444.109 -53.8028 188.34"
+"editor_drLastCameraAngle" "5.6 161.3 0"
 // primitive 0
 {
 brushDef3
@@ -884,12 +884,12 @@ brushDef3
 {
 brushDef3
 {
-( 0 0 1 -784 ) ( ( 0.015625 0 0 ) ( 0 0.015625 0 ) ) "textures/particles/wraithwarp1" 0 0 0
-( 0 1 0 -144 ) ( ( 0.015625 0 0 ) ( 0 0.015625 0 ) ) "textures/particles/wraithwarp1" 0 0 0
-( 0 0 -1 608 ) ( ( 0.015625 0 0 ) ( 0 0.015625 0 ) ) "textures/particles/wraithwarp1" 0 0 0
-( 0 -1 0 -336 ) ( ( 0.015625 0 0 ) ( 0 0.015625 0 ) ) "textures/particles/wraithwarp1" 0 0 0
-( -1 0 0 -144 ) ( ( 0.015625 0 0 ) ( 0 0.015625 0 ) ) "textures/particles/wraithwarp1" 0 0 0
-( 1 0 0 128 ) ( ( 0.015625 0 0 ) ( 0 0.015625 0 ) ) "textures/particles/wraithwarp1" 0 0 0
+( 0 0 1 -784 ) ( ( 0.0078125 0 0 ) ( 0 0.0078125 0 ) ) "textures/caves/sbricks1" 0 0 0
+( 0 1 0 -144 ) ( ( 0.0078125 0 0 ) ( 0 0.0078125 0 ) ) "textures/caves/sbricks1" 0 0 0
+( 0 0 -1 608 ) ( ( 0.0078125 0 0 ) ( 0 0.0078125 0 ) ) "textures/caves/sbricks1" 0 0 0
+( 0 -1 0 -336 ) ( ( 0.0078125 0 0 ) ( 0 0.0078125 0 ) ) "textures/caves/sbricks1" 0 0 0
+( -1 0 0 -144 ) ( ( 0.0078125 0 0 ) ( 0 0.0078125 0 ) ) "textures/caves/sbricks1" 0 0 0
+( 1 0 0 128 ) ( ( 0.0078125 0 0 ) ( 0 0.0078125 0 ) ) "textures/caves/sbricks1" 0 0 0
 }
 }
 // primitive 74
@@ -1147,10 +1147,4 @@ brushDef3
 "classname" "caverns_char_maint_scared"
 "name" "caverns_char_maint_scared_3"
 "origin" "48 -64 416"
-}
-// entity 32
-{
-"classname" "commoutside_cin_sawyer"
-"name" "commoutside_cin_sawyer_1"
-"origin" "-96 0 608"
 }
