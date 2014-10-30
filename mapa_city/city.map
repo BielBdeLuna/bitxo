@@ -1,0 +1,967 @@
+Version 2
+// entity 0
+{
+"classname" "worldspawn"
+"editor_drLastCameraPos" "-578.262 108.824 342.805"
+"editor_drLastCameraAngle" "1.8 226.2 0"
+// primitive 0
+{
+brushDef3
+{
+( 0 0 1 -544 ) ( ( 0.003787878900766373 0 0.4545454680919647 ) ( 0 0.02083333395421505 6.333333492279053 ) ) "textures/anuncis/bikini_anunci" 0 0 0
+( 0 1 0 -128 ) ( ( 0.02083333395421505 0 1595.5 ) ( 0 0.006944444496184587 3.777777671813965 ) ) "textures/anuncis/bikini_anunci" 0 0 0
+( 1 0 0 256 ) ( ( 0.003787878900766373 0 0.4545454680919647 ) ( 0 0.006944444496184587 3.777777671813965 ) ) "textures/anuncis/bikini_anunci" 0 0 0
+( 0 0 -1 400 ) ( ( 0.003787878900766373 0 0.4545454680919647 ) ( 0 0.02083333395421505 994.6666870117188 ) ) "textures/anuncis/bikini_anunci" 0 0 0
+( 0 -1 0 -120 ) ( ( 0.02083333395421505 0 6.333333492279053 ) ( 0 0.006944444496184587 3.777777671813965 ) ) "textures/anuncis/bikini_anunci" 0 0 0
+( -1 0 0 -272 ) ( ( 0.003787878900766373 0 0.696969747543335 ) ( 0 0.006944444496184587 3.777777671813965 ) ) "textures/anuncis/bikini_anunci" 0 0 0
+}
+}
+// primitive 1
+{
+brushDef3
+{
+( 0 0 1 -400 ) ( ( 0.00319488812237978 0 0 ) ( 0 0.005509641952812672 1.939393997192383 ) ) "textures/textures_ciutat/edifici" 0 0 0
+( 0 1 0 -312 ) ( ( 0.00319488812237978 0 0 ) ( 0 0.005509641952812672 0 ) ) "textures/textures_ciutat/edifici" 0 0 0
+( 1 0 0 256 ) ( ( 0.00319488812237978 0 6.517571926116943 ) ( 0 0.005509641952812672 0 ) ) "textures/textures_ciutat/edifici" 0 0 0
+( 0 0 -1 0 ) ( ( 0.00319488812237978 0 0 ) ( 0 0.005509641952812672 0 ) ) "textures/textures_ciutat/edifici" 0 0 0
+( -1 0 0 -936 ) ( ( 0.00319488812237978 0 6.364217281341553 ) ( 0 0.005509641952812672 11.10743808746338 ) ) "textures/textures_ciutat/edifici" 0 0 0
+( 0 -1 0 304 ) ( ( 0.00319488812237978 0 0 ) ( 0 0.005509641952812672 0 ) ) "textures/textures_ciutat/edifici" 0 0 0
+}
+}
+// primitive 2
+{
+brushDef3
+{
+( 0 1 0 -312 ) ( ( 0.015625 0 0 ) ( 0 0.015625 0 ) ) "textures/washroom/rfceilingtile01" 0 0 0
+( 1 0 0 256 ) ( ( 0.015625 0 31.875 ) ( 0 0.015625 0 ) ) "textures/washroom/rfceilingtile01" 0 0 0
+( 0 0 -1 0 ) ( ( 0.015625 0 0 ) ( 0 0.015625 0 ) ) "textures/washroom/rfceilingtile01" 0 0 0
+( 0 -1 0 -272 ) ( ( 0.015625 0 1.25 ) ( 0 0.015625 0.125 ) ) "textures/washroom/rfceilingtile01" 0 0 0
+( -1 0 0 -936 ) ( ( 0.015625 0 31.125 ) ( 0 0.015625 31.5 ) ) "textures/washroom/rfceilingtile01" 0 0 0
+( 0 0 1 -8 ) ( ( 0.015625 0 0 ) ( 0 0.015625 0 ) ) "textures/washroom/rfceilingtile01" 0 0 0
+}
+}
+// primitive 3
+{
+brushDef3
+{
+( 0 0 1 -400 ) ( ( 0.00319488812237978 0 0 ) ( 0 0.005509641952812672 1.939393997192383 ) ) "textures/textures_ciutat/edifici" 0 0 0
+( 1 0 0 256 ) ( ( 0.00319488812237978 0 6.517571926116943 ) ( 0 0.005509641952812672 0 ) ) "textures/textures_ciutat/edifici" 0 0 0
+( 0 0 -1 0 ) ( ( 0.00319488812237978 0 0 ) ( 0 0.005509641952812672 0 ) ) "textures/textures_ciutat/edifici" 0 0 0
+( 0 -1 0 -272 ) ( ( 0.00319488812237978 0 0.2555910646915436 ) ( 0 0.005509641952812672 0.04407713562250137 ) ) "textures/textures_ciutat/edifici" 0 0 0
+( -1 0 0 -936 ) ( ( 0.00319488812237978 0 6.364217281341553 ) ( 0 0.005509641952812672 11.10743808746338 ) ) "textures/textures_ciutat/edifici" 0 0 0
+( 0 1 0 264 ) ( ( 0.00319488812237978 0 0.2555910646915436 ) ( 0 0.005509641952812672 0.04407713562250137 ) ) "textures/textures_ciutat/edifici" 0 0 0
+}
+}
+// primitive 4
+{
+brushDef3
+{
+( 0 0 1 -400 ) ( ( 0.00319488812237978 0 0 ) ( 0 0.005509641952812672 1.939393997192383 ) ) "textures/textures_ciutat/edifici" 0 0 0
+( 0 1 0 -312 ) ( ( 0.00319488812237978 0 0 ) ( 0 0.005509641952812672 0 ) ) "textures/textures_ciutat/edifici" 0 0 0
+( 0 0 -1 0 ) ( ( 0.00319488812237978 0 0 ) ( 0 0.005509641952812672 0 ) ) "textures/textures_ciutat/edifici" 0 0 0
+( 0 -1 0 -272 ) ( ( 0.00319488812237978 0 0.2555910646915436 ) ( 0 0.005509641952812672 0.04407713562250137 ) ) "textures/textures_ciutat/edifici" 0 0 0
+( -1 0 0 -936 ) ( ( 0.00319488812237978 0 6.364217281341553 ) ( 0 0.005509641952812672 11.10743808746338 ) ) "textures/textures_ciutat/edifici" 0 0 0
+( 1 0 0 928 ) ( ( 0.00319488812237978 0 6.364217281341553 ) ( 0 0.005509641952812672 11.10743808746338 ) ) "textures/textures_ciutat/edifici" 0 0 0
+}
+}
+// primitive 5
+{
+brushDef3
+{
+( 0 0 1 -232 ) ( ( 0.03125 0 0 ) ( 0 0.03125 1.78125 ) ) "textures/washroom/btile01_trans" 0 0 0
+( 0 1 0 -312 ) ( ( 0.03125 0 254.9375 ) ( 0 0.03125 1.59375 ) ) "textures/washroom/btile01_trans" 0 0 0
+( 1 0 0 256 ) ( ( 0.03125 0 0.25 ) ( 0 0.03125 2.5625 ) ) "textures/washroom/btile01_trans" 0 0 0
+( 0 0 -1 211 ) ( ( 0.03125 0 55 ) ( 0 0.03125 254.9375 ) ) "textures/washroom/btile01_trans" 0 0 0
+( 0 -1 0 -272 ) ( ( 0.03125 0 1.0625 ) ( 0 0.03125 2.09375 ) ) "textures/washroom/btile01_trans" 0 0 0
+( -1 0 0 -936 ) ( ( 0.03125 0 63.75 ) ( 0 0.03125 1.75 ) ) "textures/washroom/btile01_trans" 0 0 0
+}
+}
+// primitive 6
+{
+brushDef3
+{
+( 0 0 1 -400 ) ( ( 0.00319488812237978 0 6.466453552246094 ) ( 0 0.005509641952812672 0.04407713562250137 ) ) "textures/textures_ciutat/edifici" 0 0 0
+( 0 1 0 -304 ) ( ( 0.00319488812237978 0 0 ) ( 0 0.005509641952812672 11.15151500701904 ) ) "textures/textures_ciutat/edifici" 0 0 0
+( 1 0 0 256 ) ( ( 0.00319488812237978 0 0 ) ( 0 0.005509641952812672 11.15151500701904 ) ) "textures/textures_ciutat/edifici" 0 0 0
+( 0 0 -1 96 ) ( ( 0.00319488812237978 0 6.338658332824707 ) ( 0 0.005509641952812672 0 ) ) "textures/textures_ciutat/edifici" 0 0 0
+( 0 -1 0 -272 ) ( ( 0.00319488812237978 0 0 ) ( 0 0.005509641952812672 11.15151500701904 ) ) "textures/textures_ciutat/edifici" 0 0 0
+( -1 0 0 -272 ) ( ( 0.00319488812237978 0 26.14696502685547 ) ( 0 0.005509641952812672 11.19559192657471 ) ) "textures/textures_ciutat/edifici" 0 0 0
+}
+}
+// primitive 7
+{
+brushDef3
+{
+( 0 0 1 -96 ) ( ( 0.00319488812237978 0 0 ) ( 0 0.005509641952812672 0 ) ) "textures/textures_ciutat/edifici" 0 0 0
+( 0 1 0 16 ) ( ( 0.00319488812237978 0 0 ) ( 0 0.005509641952812672 0 ) ) "textures/textures_ciutat/edifici" 0 0 0
+( 1 0 0 256 ) ( ( 0.00319488812237978 0 0 ) ( 0 0.005509641952812672 0 ) ) "textures/textures_ciutat/edifici" 0 0 0
+( 0 0 -1 8 ) ( ( 0.00319488812237978 0 0 ) ( 0 0.005509641952812672 0 ) ) "textures/textures_ciutat/edifici" 0 0 0
+( 0 -1 0 -264 ) ( ( 0.00319488812237978 0 0 ) ( 0 0.005509641952812672 0.08815427124500275 ) ) "textures/textures_ciutat/edifici" 0 0 0
+( -1 0 0 -272 ) ( ( 0.00319488812237978 0 0 ) ( 0 0.005509641952812672 0 ) ) "textures/textures_ciutat/edifici" 0 0 0
+}
+}
+// primitive 8
+{
+brushDef3
+{
+( 0 0 1 -96 ) ( ( 0.00319488812237978 0 26.09584617614746 ) ( 0 0.005509641952812672 0 ) ) "textures/textures_ciutat/edifici" 0 0 0
+( 0 1 0 -304 ) ( ( 0.00319488812237978 0 0 ) ( 0 0.005509641952812672 0 ) ) "textures/textures_ciutat/edifici" 0 0 0
+( 1 0 0 256 ) ( ( 0.00319488812237978 0 0 ) ( 0 0.005509641952812672 0 ) ) "textures/textures_ciutat/edifici" 0 0 0
+( 0 0 -1 8 ) ( ( 0.00319488812237978 0 0 ) ( 0 0.005509641952812672 0 ) ) "textures/textures_ciutat/edifici" 0 0 0
+( 0 -1 0 120 ) ( ( 0.00319488812237978 0 0 ) ( 0 0.005509641952812672 0 ) ) "textures/textures_ciutat/edifici" 0 0 0
+( -1 0 0 -272 ) ( ( 0.00319488812237978 0 0 ) ( 0 0.005509641952812672 0 ) ) "textures/textures_ciutat/edifici" 0 0 0
+}
+}
+// primitive 9
+{
+brushDef3
+{
+( 0 0 1 -400 ) ( ( 0.015625 0 0 ) ( 0 0.015625 0 ) ) "textures/washroom/rfceilingtile01" 0 0 0
+( 0 1 0 -304 ) ( ( 0.015625 0 0.125 ) ( 0 0.015625 0 ) ) "textures/washroom/rfceilingtile01" 0 0 0
+( 1 0 0 272 ) ( ( 0.015625 0 127.75 ) ( 0 0.015625 0 ) ) "textures/washroom/rfceilingtile01" 0 0 0
+( 0 0 -1 392 ) ( ( 0.015625 0 0 ) ( 0 0.015625 0 ) ) "textures/washroom/rfceilingtile01" 0 0 0
+( 0 -1 0 64 ) ( ( 0.015625 0 125.625 ) ( 0 0.015625 0 ) ) "textures/washroom/rfceilingtile01" 0 0 0
+( -1 0 0 -928 ) ( ( 0.015625 0 0 ) ( 0 0.015625 0 ) ) "textures/washroom/rfceilingtile01" 0 0 0
+}
+}
+// primitive 10
+{
+brushDef3
+{
+( 0 0 1 -400 ) ( ( 0.015625 0 0 ) ( 0 0.015625 0 ) ) "textures/washroom/rfceilingtile01" 0 0 0
+( 0 1 0 -64 ) ( ( 0.015625 0 0.125 ) ( 0 0.015625 0 ) ) "textures/washroom/rfceilingtile01" 0 0 0
+( 1 0 0 272 ) ( ( 0.015625 0 0 ) ( 0 0.015625 0 ) ) "textures/washroom/rfceilingtile01" 0 0 0
+( 0 0 -1 392 ) ( ( 0.015625 0 0 ) ( 0 0.015625 0 ) ) "textures/washroom/rfceilingtile01" 0 0 0
+( 0 -1 0 -264 ) ( ( 0.015625 0 127.875 ) ( 0 0.015625 0 ) ) "textures/washroom/rfceilingtile01" 0 0 0
+( -1 0 0 -584 ) ( ( 0.015625 0 0 ) ( 0 0.015625 0 ) ) "textures/washroom/rfceilingtile01" 0 0 0
+}
+}
+// primitive 11
+{
+brushDef3
+{
+( 0 0 1 -400 ) ( ( 0.015625 0 0 ) ( 0 0.015625 0 ) ) "textures/washroom/rfceilingtile01" 0 0 0
+( 0 1 0 -64 ) ( ( 0.015625 0 0 ) ( 0 0.015625 0 ) ) "textures/washroom/rfceilingtile01" 0 0 0
+( 1 0 0 728 ) ( ( 0.015625 0 0 ) ( 0 0.015625 0 ) ) "textures/washroom/rfceilingtile01" 0 0 0
+( 0 0 -1 392 ) ( ( 0.015625 0 0 ) ( 0 0.015625 0 ) ) "textures/washroom/rfceilingtile01" 0 0 0
+( 0 -1 0 -264 ) ( ( 0.015625 0 0 ) ( 0 0.015625 0 ) ) "textures/washroom/rfceilingtile01" 0 0 0
+( -1 0 0 -928 ) ( ( 0.015625 0 127.875 ) ( 0 0.015625 0 ) ) "textures/washroom/rfceilingtile01" 0 0 0
+}
+}
+// primitive 12
+{
+brushDef3
+{
+( 0 0 1 -400 ) ( ( 0.015625 0 0 ) ( 0 0.015625 0 ) ) "textures/washroom/rfceilingtile01" 0 0 0
+( 0 1 0 24 ) ( ( 0.015625 0 0 ) ( 0 0.015625 0 ) ) "textures/washroom/rfceilingtile01" 0 0 0
+( 1 0 0 576 ) ( ( 0.015625 0 0 ) ( 0 0.015625 0 ) ) "textures/washroom/rfceilingtile01" 0 0 0
+( 0 0 -1 392 ) ( ( 0.015625 0 0 ) ( 0 0.015625 0 ) ) "textures/washroom/rfceilingtile01" 0 0 0
+( 0 -1 0 -264 ) ( ( 0.015625 0 127.75 ) ( 0 0.015625 0 ) ) "textures/washroom/rfceilingtile01" 0 0 0
+( -1 0 0 -728 ) ( ( 0.015625 0 0 ) ( 0 0.015625 0 ) ) "textures/washroom/rfceilingtile01" 0 0 0
+}
+}
+// primitive 13
+{
+brushDef3
+{
+( 0 0 1 -400 ) ( ( 0.015625 0 0 ) ( 0 0.015625 0 ) ) "textures/washroom/rfceilingtile01" 0 0 0
+( 0 1 0 -64 ) ( ( 0.015625 0 0.625 ) ( 0 0.015625 0 ) ) "textures/washroom/rfceilingtile01" 0 0 0
+( 1 0 0 584 ) ( ( 0.015625 0 0 ) ( 0 0.015625 0 ) ) "textures/washroom/rfceilingtile01" 0 0 0
+( 0 0 -1 392 ) ( ( 0.015625 0 0 ) ( 0 0.015625 0 ) ) "textures/washroom/rfceilingtile01" 0 0 0
+( 0 -1 0 -24 ) ( ( 0.015625 0 127.875 ) ( 0 0.015625 0 ) ) "textures/washroom/rfceilingtile01" 0 0 0
+( -1 0 0 -656 ) ( ( 0.015625 0 127.875 ) ( 0 0.015625 0 ) ) "textures/washroom/rfceilingtile01" 0 0 0
+}
+}
+// primitive 14
+{
+brushDef3
+{
+( 0 0 1 -392 ) ( ( 0.03125 0 0 ) ( 0 0.03125 0 ) ) "textures/washroom/blackbtile01" 0 0 0
+( 0 1 0 -64 ) ( ( 0.03125 0 0 ) ( 0 0.03125 0 ) ) "textures/washroom/blackbtile01" 0 0 0
+( 1 0 0 560 ) ( ( 0.03125 0 0 ) ( 0 0.03125 0 ) ) "textures/washroom/blackbtile01" 0 0 0
+( 0 0 -1 336 ) ( ( 0.03125 0 0 ) ( 0 0.03125 0 ) ) "textures/washroom/blackbtile01" 0 0 0
+( 0 -1 0 -24 ) ( ( 0.03125 0 0 ) ( 0 0.03125 0 ) ) "textures/washroom/blackbtile01" 0 0 0
+( -1 0 0 -568 ) ( ( 0.03125 0 0 ) ( 0 0.03125 0 ) ) "textures/washroom/blackbtile01" 0 0 0
+}
+}
+// primitive 15
+{
+brushDef3
+{
+( 0 0 1 -336 ) ( ( 0.03125 0 0 ) ( 0 0.03125 0 ) ) "textures/washroom/blackbtile01" 0 0 0
+( 0 1 0 -64 ) ( ( 0.03125 0 0 ) ( 0 0.03125 0 ) ) "textures/washroom/blackbtile01" 0 0 0
+( 1 0 0 560 ) ( ( 0.03125 0 0 ) ( 0 0.03125 0 ) ) "textures/washroom/blackbtile01" 0 0 0
+( 0 0 -1 328 ) ( ( 0.03125 0 0 ) ( 0 0.03125 0 ) ) "textures/washroom/blackbtile01" 0 0 0
+( 0 -1 0 -24 ) ( ( 0.03125 0 0 ) ( 0 0.03125 0 ) ) "textures/washroom/blackbtile01" 0 0 0
+( -1 0 0 -640 ) ( ( 0.03125 0 0 ) ( 0 0.03125 0 ) ) "textures/washroom/blackbtile01" 0 0 0
+}
+}
+// primitive 16
+{
+brushDef3
+{
+( 0 0 1 -312 ) ( ( 0.03125 0 0 ) ( 0 0.03125 0.75 ) ) "textures/washroom/blackbtile01" 0 0 0
+( 0 1 0 -64 ) ( ( 0.03125 0 254.75 ) ( 0 0.03125 0.25 ) ) "textures/washroom/blackbtile01" 0 0 0
+( 1 0 0 632 ) ( ( 0.03125 0 0 ) ( 0 0.03125 0.5 ) ) "textures/washroom/blackbtile01" 0 0 0
+( 0 0 -1 296 ) ( ( 0.03125 0 0 ) ( 0 0.03125 254.75 ) ) "textures/washroom/blackbtile01" 0 0 0
+( 0 -1 0 -24 ) ( ( 0.03125 0 1.25 ) ( 0 0.03125 0.25 ) ) "textures/washroom/blackbtile01" 0 0 0
+( -1 0 0 -752 ) ( ( 0.03125 0 0 ) ( 0 0.03125 0.5 ) ) "textures/washroom/blackbtile01" 0 0 0
+}
+}
+// primitive 17
+{
+brushDef3
+{
+( 0 0 1 -328 ) ( ( 0.03125 0 0 ) ( 0 0.03125 255.25 ) ) "textures/washroom/blackbtile01" 0 0 0
+( 0 1 0 -64 ) ( ( 0.03125 0 0.75 ) ( 0 0.03125 0 ) ) "textures/washroom/blackbtile01" 0 0 0
+( 1 0 0 560 ) ( ( 0.03125 0 0 ) ( 0 0.03125 0.5 ) ) "textures/washroom/blackbtile01" 0 0 0
+( 0 0 -1 232 ) ( ( 0.03125 0 0 ) ( 0 0.03125 0.75 ) ) "textures/washroom/blackbtile01" 0 0 0
+( 0 -1 0 -24 ) ( ( 0.03125 0 255.25 ) ( 0 0.03125 0 ) ) "textures/washroom/blackbtile01" 0 0 0
+( -1 0 0 -640 ) ( ( 0.03125 0 0 ) ( 0 0.03125 0 ) ) "textures/washroom/blackbtile01" 0 0 0
+}
+}
+// primitive 18
+{
+brushDef3
+{
+( 0 0 1 -296 ) ( ( 0.03125 0 0 ) ( 0 0.03125 0 ) ) "textures/washroom/blackbtile01" 0 0 0
+( 0 1 0 -64 ) ( ( 0.03125 0 0 ) ( 0 0.03125 0 ) ) "textures/washroom/blackbtile01" 0 0 0
+( 1 0 0 640 ) ( ( 0.03125 0 0 ) ( 0 0.03125 0 ) ) "textures/washroom/blackbtile01" 0 0 0
+( 0 0 -1 232 ) ( ( 0.03125 0 0 ) ( 0 0.03125 0 ) ) "textures/washroom/blackbtile01" 0 0 0
+( 0 -1 0 -24 ) ( ( 0.03125 0 0 ) ( 0 0.03125 0 ) ) "textures/washroom/blackbtile01" 0 0 0
+( -1 0 0 -752 ) ( ( 0.03125 0 0 ) ( 0 0.03125 0 ) ) "textures/washroom/blackbtile01" 0 0 0
+}
+}
+// primitive 19
+{
+brushDef3
+{
+( 0 0 1 -1069 ) ( ( 0 0 0 ) ( 0 0 0 ) ) "textures/skies/desert" 0 0 0
+( 0 1 0 -990 ) ( ( 0 0 0 ) ( 0 0 0 ) ) "textures/skies/desert" 0 0 0
+( 1 0 0 -657 ) ( ( 0 0 0 ) ( 0 0 0 ) ) "textures/skies/desert" 0 0 0
+( 0 -1 0 -1052 ) ( ( 0 0 0 ) ( 0 0 0 ) ) "textures/skies/desert" 0 0 0
+( -1 0 0 -1603 ) ( ( 0 0 0 ) ( 0 0 0 ) ) "textures/skies/desert" 0 0 0
+( 0 0 -1 1068 ) ( ( 0 0 0 ) ( 0 0 0 ) ) "textures/skies/desert" 0 0 0
+}
+}
+// primitive 20
+{
+brushDef3
+{
+( 0 0 1 -1069 ) ( ( 0 0 0 ) ( 0 0 0 ) ) "textures/skies/desert" 0 0 0
+( 0 1 0 -990 ) ( ( 0 0 0 ) ( 0 0 0 ) ) "textures/skies/desert" 0 0 0
+( 1 0 0 -657 ) ( ( 0 0 0 ) ( 0 0 0 ) ) "textures/skies/desert" 0 0 0
+( 0 0 -1 -19 ) ( ( 0 0 0 ) ( 0 0 0 ) ) "textures/skies/desert" 0 0 0
+( -1 0 0 -1603 ) ( ( 0 0 0 ) ( 0 0 0 ) ) "textures/skies/desert" 0 0 0
+( 0 -1 0 989 ) ( ( 0 0 0 ) ( 0 0 0 ) ) "textures/skies/desert" 0 0 0
+}
+}
+// primitive 21
+{
+brushDef3
+{
+( 0 0 1 -1069 ) ( ( 0 0 0 ) ( 0 0 0 ) ) "textures/skies/desert" 0 0 0
+( 0 1 0 -990 ) ( ( 0 0 0 ) ( 0 0 0 ) ) "textures/skies/desert" 0 0 0
+( 1 0 0 -657 ) ( ( 0 0 0 ) ( 0 0 0 ) ) "textures/skies/desert" 0 0 0
+( 0 0 -1 -19 ) ( ( 0 0 0 ) ( 0 0 0 ) ) "textures/skies/desert" 0 0 0
+( 0 -1 0 -1052 ) ( ( 0 0 0 ) ( 0 0 0 ) ) "textures/skies/desert" 0 0 0
+( -1 0 0 656 ) ( ( 0 0 0 ) ( 0 0 0 ) ) "textures/skies/desert" 0 0 0
+}
+}
+// primitive 22
+{
+brushDef3
+{
+( 0 1 0 -990 ) ( ( 0 0 0 ) ( 0 0 0 ) ) "textures/skies/desert" 0 0 0
+( 1 0 0 -657 ) ( ( 0 0 0 ) ( 0 0 0 ) ) "textures/skies/desert" 0 0 0
+( 0 0 -1 -19 ) ( ( 0 0 0 ) ( 0 0 0 ) ) "textures/skies/desert" 0 0 0
+( 0 -1 0 -1052 ) ( ( 0 0 0 ) ( 0 0 0 ) ) "textures/skies/desert" 0 0 0
+( -1 0 0 -1603 ) ( ( 0 0 0 ) ( 0 0 0 ) ) "textures/skies/desert" 0 0 0
+( 0 0 1 18 ) ( ( 0 0 0 ) ( 0 0 0 ) ) "textures/skies/desert" 0 0 0
+}
+}
+// primitive 23
+{
+brushDef3
+{
+( 0 0 1 -1069 ) ( ( 0 0 0 ) ( 0 0 0 ) ) "textures/skies/desert" 0 0 0
+( 1 0 0 -657 ) ( ( 0 0 0 ) ( 0 0 0 ) ) "textures/skies/desert" 0 0 0
+( 0 0 -1 -19 ) ( ( 0 0 0 ) ( 0 0 0 ) ) "textures/skies/desert" 0 0 0
+( 0 -1 0 -1052 ) ( ( 0 0 0 ) ( 0 0 0 ) ) "textures/skies/desert" 0 0 0
+( -1 0 0 -1603 ) ( ( 0 0 0 ) ( 0 0 0 ) ) "textures/skies/desert" 0 0 0
+( 0 1 0 1051 ) ( ( 0 0 0 ) ( 0 0 0 ) ) "textures/skies/desert" 0 0 0
+}
+}
+// primitive 24
+{
+brushDef3
+{
+( 0 0 1 -1069 ) ( ( 0 0 0 ) ( 0 0 0 ) ) "textures/skies/desert" 0 0 0
+( 0 1 0 -990 ) ( ( 0 0 0 ) ( 0 0 0 ) ) "textures/skies/desert" 0 0 0
+( 0 0 -1 -19 ) ( ( 0 0 0 ) ( 0 0 0 ) ) "textures/skies/desert" 0 0 0
+( 0 -1 0 -1052 ) ( ( 0 0 0 ) ( 0 0 0 ) ) "textures/skies/desert" 0 0 0
+( -1 0 0 -1603 ) ( ( 0 0 0 ) ( 0 0 0 ) ) "textures/skies/desert" 0 0 0
+( 1 0 0 1602 ) ( ( 0 0 0 ) ( 0 0 0 ) ) "textures/skies/desert" 0 0 0
+}
+}
+// primitive 25
+{
+brushDef3
+{
+( 0 0 1 -1749 ) ( ( 0.0078125 0 0 ) ( 0 0.0078125 0 ) ) "textures/base_floor/a_bluetex1a_02" 0 0 0
+( 0 1 0 -1805 ) ( ( 0.0078125 0 0 ) ( 0 0.0078125 15.6171875 ) ) "textures/base_floor/a_bluetex1a_02" 0 0 0
+( 1 0 0 -1731 ) ( ( 0.0078125 0 0 ) ( 0 0.0078125 0 ) ) "textures/base_floor/a_bluetex1a_02" 0 0 0
+( 0 -1 0 -2324 ) ( ( 0.0078125 0 0 ) ( 0 0.0078125 15.2265625 ) ) "textures/base_floor/a_bluetex1a_02" 0 0 0
+( -1 0 0 -2208 ) ( ( 0.0078125 0 0 ) ( 0 0.0078125 0 ) ) "textures/base_floor/a_bluetex1a_02" 0 0 0
+( 0 0 -1 1748 ) ( ( 0.0078125 0 0 ) ( 0 0.0078125 0 ) ) "textures/base_floor/a_bluetex1a_02" 0 0 0
+}
+}
+// primitive 26
+{
+brushDef3
+{
+( 0 0 1 -1749 ) ( ( 0.0078125 0 0 ) ( 0 0.0078125 0 ) ) "textures/base_floor/a_bluetex1a_02" 0 0 0
+( 0 1 0 -1805 ) ( ( 0.0078125 0 0 ) ( 0 0.0078125 15.6171875 ) ) "textures/base_floor/a_bluetex1a_02" 0 0 0
+( 1 0 0 -1731 ) ( ( 0.0078125 0 0 ) ( 0 0.0078125 0 ) ) "textures/base_floor/a_bluetex1a_02" 0 0 0
+( 0 0 -1 -303 ) ( ( 0.0078125 0 0 ) ( 0 0.0078125 0 ) ) "textures/base_floor/a_bluetex1a_02" 0 0 0
+( -1 0 0 -2208 ) ( ( 0.0078125 0 0 ) ( 0 0.0078125 0 ) ) "textures/base_floor/a_bluetex1a_02" 0 0 0
+( 0 -1 0 1804 ) ( ( 0.0078125 0 0 ) ( 0 0.0078125 15.6171875 ) ) "textures/base_floor/a_bluetex1a_02" 0 0 0
+}
+}
+// primitive 27
+{
+brushDef3
+{
+( 0 0 1 -1749 ) ( ( 0.0078125 0 0 ) ( 0 0.0078125 0 ) ) "textures/base_floor/a_bluetex1a_02" 0 0 0
+( 0 1 0 -1805 ) ( ( 0.0078125 0 0 ) ( 0 0.0078125 15.6171875 ) ) "textures/base_floor/a_bluetex1a_02" 0 0 0
+( 1 0 0 -1731 ) ( ( 0.0078125 0 0 ) ( 0 0.0078125 0 ) ) "textures/base_floor/a_bluetex1a_02" 0 0 0
+( 0 0 -1 -303 ) ( ( 0.0078125 0 0 ) ( 0 0.0078125 0 ) ) "textures/base_floor/a_bluetex1a_02" 0 0 0
+( 0 -1 0 -2324 ) ( ( 0.0078125 0 0 ) ( 0 0.0078125 15.2265625 ) ) "textures/base_floor/a_bluetex1a_02" 0 0 0
+( -1 0 0 1730 ) ( ( 0.0078125 0 0 ) ( 0 0.0078125 0 ) ) "textures/base_floor/a_bluetex1a_02" 0 0 0
+}
+}
+// primitive 28
+{
+brushDef3
+{
+( 0 1 0 -1805 ) ( ( 0.0078125 0 0 ) ( 0 0.0078125 15.6171875 ) ) "textures/base_floor/a_bluetex1a_02" 0 0 0
+( 1 0 0 -1731 ) ( ( 0.0078125 0 0 ) ( 0 0.0078125 0 ) ) "textures/base_floor/a_bluetex1a_02" 0 0 0
+( 0 0 -1 -303 ) ( ( 0.0078125 0 0 ) ( 0 0.0078125 0 ) ) "textures/base_floor/a_bluetex1a_02" 0 0 0
+( 0 -1 0 -2324 ) ( ( 0.0078125 0 0 ) ( 0 0.0078125 15.2265625 ) ) "textures/base_floor/a_bluetex1a_02" 0 0 0
+( -1 0 0 -2208 ) ( ( 0.0078125 0 0 ) ( 0 0.0078125 0 ) ) "textures/base_floor/a_bluetex1a_02" 0 0 0
+( 0 0 1 302 ) ( ( 0.0078125 0 0 ) ( 0 0.0078125 0 ) ) "textures/base_floor/a_bluetex1a_02" 0 0 0
+}
+}
+// primitive 29
+{
+brushDef3
+{
+( 0 0 1 -1749 ) ( ( 0.0078125 0 0 ) ( 0 0.0078125 0 ) ) "textures/base_floor/a_bluetex1a_02" 0 0 0
+( 1 0 0 -1731 ) ( ( 0.0078125 0 0 ) ( 0 0.0078125 0 ) ) "textures/base_floor/a_bluetex1a_02" 0 0 0
+( 0 0 -1 -303 ) ( ( 0.0078125 0 0 ) ( 0 0.0078125 0 ) ) "textures/base_floor/a_bluetex1a_02" 0 0 0
+( 0 -1 0 -2324 ) ( ( 0.0078125 0 0 ) ( 0 0.0078125 15.2265625 ) ) "textures/base_floor/a_bluetex1a_02" 0 0 0
+( -1 0 0 -2208 ) ( ( 0.0078125 0 0 ) ( 0 0.0078125 0 ) ) "textures/base_floor/a_bluetex1a_02" 0 0 0
+( 0 1 0 2323 ) ( ( 0.0078125 0 0 ) ( 0 0.0078125 15.2265625 ) ) "textures/base_floor/a_bluetex1a_02" 0 0 0
+}
+}
+// primitive 30
+{
+brushDef3
+{
+( 0 0 1 -1749 ) ( ( 0.0078125 0 0 ) ( 0 0.0078125 0 ) ) "textures/base_floor/a_bluetex1a_02" 0 0 0
+( 0 1 0 -1805 ) ( ( 0.0078125 0 0 ) ( 0 0.0078125 15.6171875 ) ) "textures/base_floor/a_bluetex1a_02" 0 0 0
+( 0 0 -1 -303 ) ( ( 0.0078125 0 0 ) ( 0 0.0078125 0 ) ) "textures/base_floor/a_bluetex1a_02" 0 0 0
+( 0 -1 0 -2324 ) ( ( 0.0078125 0 0 ) ( 0 0.0078125 15.2265625 ) ) "textures/base_floor/a_bluetex1a_02" 0 0 0
+( -1 0 0 -2208 ) ( ( 0.0078125 0 0 ) ( 0 0.0078125 0 ) ) "textures/base_floor/a_bluetex1a_02" 0 0 0
+( 1 0 0 2207 ) ( ( 0.0078125 0 0 ) ( 0 0.0078125 0 ) ) "textures/base_floor/a_bluetex1a_02" 0 0 0
+}
+}
+// primitive 31
+{
+brushDef3
+{
+( 0 0 1 -400 ) ( ( 0.03125 0 0 ) ( 0 0.03125 0 ) ) "textures/editor/visportal" 0 0 0
+( 0 1 0 -64 ) ( ( 0.03125 0 0 ) ( 0 0.03125 0 ) ) "textures/editor/visportal" 0 0 0
+( 1 0 0 656 ) ( ( 0.03125 0 0 ) ( 0 0.03125 0 ) ) "textures/editor/visportal" 0 0 0
+( 0 0 -1 -304 ) ( ( 0.03125 0 0 ) ( 0 0.03125 0 ) ) "textures/editor/visportal" 0 0 0
+( 0 -1 0 -24 ) ( ( 0.03125 0 0 ) ( 0 0.03125 0 ) ) "textures/editor/visportal" 0 0 0
+( -1 0 0 -728 ) ( ( 0.03125 0 0 ) ( 0 0.03125 0 ) ) "textures/editor/visportal" 0 0 0
+}
+}
+// primitive 32
+{
+brushDef3
+{
+( 0 0 1 -96 ) ( ( 0 0 0 ) ( 0 0 0 ) ) "textures/editor/visportal" 0 0 0
+( 0 1 0 -120 ) ( ( 0 0 0 ) ( 0 0 0 ) ) "textures/editor/visportal" 0 0 0
+( 1 0 0 256 ) ( ( 0 0 0 ) ( 0 0 0 ) ) "textures/editor/visportal" 0 0 0
+( 0 0 -1 8 ) ( ( 0 0 0 ) ( 0 0 0 ) ) "textures/editor/visportal" 0 0 0
+( 0 -1 0 -16 ) ( ( 0 0 0 ) ( 0 0 0 ) ) "textures/editor/visportal" 0 0 0
+( -1 0 0 -272 ) ( ( 0 0 0 ) ( 0 0 0 ) ) "textures/editor/visportal" 0 0 0
+}
+}
+// primitive 33
+{
+brushDef3
+{
+( 0 0 1 -544 ) ( ( 0.125 0 1.25 ) ( 0 0.125 0 ) ) "textures/bl/dev/16x16_gray" 0 0 0
+( 0 1 0 -304 ) ( ( 0.125 0 0 ) ( 0 0.125 252.75 ) ) "textures/bl/dev/16x16_gray" 0 0 0
+( 1 0 0 -561 ) ( ( 0.125 0 0 ) ( 0 0.125 0 ) ) "textures/bl/dev/16x16_gray" 0 0 0
+( 0 -1 0 -325 ) ( ( 0.125 0 0 ) ( 0 0.125 5.625 ) ) "textures/bl/dev/16x16_gray" 0 0 0
+( -1 0 0 157 ) ( ( 0.125 0 0 ) ( 0 0.125 0 ) ) "textures/bl/dev/16x16_gray" 0 0 0
+( 0 0 -1 543 ) ( ( 0.125 0 1.25 ) ( 0 0.125 0 ) ) "textures/bl/dev/16x16_gray" 0 0 0
+}
+}
+// primitive 34
+{
+brushDef3
+{
+( 0 0 1 -544 ) ( ( 0.125 0 1.25 ) ( 0 0.125 0 ) ) "textures/bl/dev/16x16_gray" 0 0 0
+( 0 1 0 -304 ) ( ( 0.125 0 0 ) ( 0 0.125 252.75 ) ) "textures/bl/dev/16x16_gray" 0 0 0
+( 1 0 0 -561 ) ( ( 0.125 0 0 ) ( 0 0.125 0 ) ) "textures/bl/dev/16x16_gray" 0 0 0
+( 0 0 -1 2 ) ( ( 0.125 0 0 ) ( 0 0.125 0 ) ) "textures/bl/dev/16x16_gray" 0 0 0
+( -1 0 0 157 ) ( ( 0.125 0 0 ) ( 0 0.125 0 ) ) "textures/bl/dev/16x16_gray" 0 0 0
+( 0 -1 0 303 ) ( ( 0.125 0 0 ) ( 0 0.125 252.75 ) ) "textures/bl/dev/16x16_gray" 0 0 0
+}
+}
+// primitive 35
+{
+brushDef3
+{
+( 0 0 1 -544 ) ( ( 0.125 0 1.25 ) ( 0 0.125 0 ) ) "textures/bl/dev/16x16_gray" 0 0 0
+( 0 1 0 -304 ) ( ( 0.125 0 0 ) ( 0 0.125 252.75 ) ) "textures/bl/dev/16x16_gray" 0 0 0
+( 1 0 0 -561 ) ( ( 0.125 0 0 ) ( 0 0.125 0 ) ) "textures/bl/dev/16x16_gray" 0 0 0
+( 0 0 -1 2 ) ( ( 0.125 0 0 ) ( 0 0.125 0 ) ) "textures/bl/dev/16x16_gray" 0 0 0
+( 0 -1 0 -325 ) ( ( 0.125 0 0 ) ( 0 0.125 5.625 ) ) "textures/bl/dev/16x16_gray" 0 0 0
+( -1 0 0 560 ) ( ( 0.125 0 0 ) ( 0 0.125 0 ) ) "textures/bl/dev/16x16_gray" 0 0 0
+}
+}
+// primitive 36
+{
+brushDef3
+{
+( 0 1 0 -304 ) ( ( 0.125 0 0 ) ( 0 0.125 252.75 ) ) "textures/bl/dev/16x16_gray" 0 0 0
+( 1 0 0 -561 ) ( ( 0.125 0 0 ) ( 0 0.125 0 ) ) "textures/bl/dev/16x16_gray" 0 0 0
+( 0 0 -1 2 ) ( ( 0.125 0 0 ) ( 0 0.125 0 ) ) "textures/bl/dev/16x16_gray" 0 0 0
+( 0 -1 0 -325 ) ( ( 0.125 0 0 ) ( 0 0.125 5.625 ) ) "textures/bl/dev/16x16_gray" 0 0 0
+( -1 0 0 157 ) ( ( 0.125 0 0 ) ( 0 0.125 0 ) ) "textures/bl/dev/16x16_gray" 0 0 0
+( 0 0 1 -3 ) ( ( 0.125 0 0 ) ( 0 0.125 0 ) ) "textures/bl/dev/16x16_gray" 0 0 0
+}
+}
+// primitive 37
+{
+brushDef3
+{
+( 0 0 1 -544 ) ( ( 0.125 0 1.25 ) ( 0 0.125 0 ) ) "textures/bl/dev/16x16_gray" 0 0 0
+( 1 0 0 -561 ) ( ( 0.125 0 0 ) ( 0 0.125 0 ) ) "textures/bl/dev/16x16_gray" 0 0 0
+( 0 0 -1 2 ) ( ( 0.125 0 0 ) ( 0 0.125 0 ) ) "textures/bl/dev/16x16_gray" 0 0 0
+( 0 -1 0 -325 ) ( ( 0.125 0 0 ) ( 0 0.125 5.625 ) ) "textures/bl/dev/16x16_gray" 0 0 0
+( -1 0 0 157 ) ( ( 0.125 0 0 ) ( 0 0.125 0 ) ) "textures/bl/dev/16x16_gray" 0 0 0
+( 0 1 0 324 ) ( ( 0.125 0 0 ) ( 0 0.125 5.625 ) ) "textures/bl/dev/16x16_gray" 0 0 0
+}
+}
+// primitive 38
+{
+brushDef3
+{
+( 0 0 1 -544 ) ( ( 0.125 0 1.25 ) ( 0 0.125 0 ) ) "textures/bl/dev/16x16_gray" 0 0 0
+( 0 1 0 -304 ) ( ( 0.125 0 0 ) ( 0 0.125 252.75 ) ) "textures/bl/dev/16x16_gray" 0 0 0
+( 0 0 -1 2 ) ( ( 0.125 0 0 ) ( 0 0.125 0 ) ) "textures/bl/dev/16x16_gray" 0 0 0
+( 0 -1 0 -325 ) ( ( 0.125 0 0 ) ( 0 0.125 5.625 ) ) "textures/bl/dev/16x16_gray" 0 0 0
+( -1 0 0 157 ) ( ( 0.125 0 0 ) ( 0 0.125 0 ) ) "textures/bl/dev/16x16_gray" 0 0 0
+( 1 0 0 -158 ) ( ( 0.125 0 0 ) ( 0 0.125 0 ) ) "textures/bl/dev/16x16_gray" 0 0 0
+}
+}
+// primitive 39
+{
+brushDef3
+{
+( 0 0 1 -451 ) ( ( 0.125 0 0 ) ( 0 0.125 11.75 ) ) "textures/bl/dev/16x16_red" 0 0 0
+( 0 1 0 -304 ) ( ( 0.125 0 0 ) ( 0 0.125 0 ) ) "textures/bl/dev/16x16_red" 0 0 0
+( 1 0 0 -458 ) ( ( 0.125 0 0 ) ( 0 0.125 0 ) ) "textures/bl/dev/16x16_red" 0 0 0
+( 0 0 -1 448 ) ( ( 0.125 0 0 ) ( 0 0.125 0 ) ) "textures/bl/dev/16x16_red" 0 0 0
+( 0 -1 0 -325 ) ( ( 0.125 0 0 ) ( 0 0.125 0 ) ) "textures/bl/dev/16x16_red" 0 0 0
+( -1 0 0 160 ) ( ( 0.125 0 0 ) ( 0 0.125 0 ) ) "textures/bl/dev/16x16_red" 0 0 0
+}
+}
+// primitive 40
+{
+brushDef3
+{
+( 0 0 1 -451 ) ( ( 0.125 0 1.25 ) ( 0 0.125 0 ) ) "textures/bl/dev/16x16_yellow" 0 0 0
+( 0 1 0 -298 ) ( ( 0.125 0 248.75 ) ( 0 0.125 0 ) ) "textures/bl/dev/16x16_yellow" 0 0 0
+( 1 0 0 -560 ) ( ( 0.125 0 255.625 ) ( 0 0.125 0 ) ) "textures/bl/dev/16x16_yellow" 0 0 0
+( 0 0 -1 448 ) ( ( 0.125 0 1.25 ) ( 0 0.125 0 ) ) "textures/bl/dev/16x16_yellow" 0 0 0
+( 0 -1 0 -253 ) ( ( 0.125 0 1.25 ) ( 0 0.125 0 ) ) "textures/bl/dev/16x16_yellow" 0 0 0
+( -1 0 0 457 ) ( ( 0.125 0 14.75 ) ( 0 0.125 0 ) ) "textures/bl/dev/16x16_yellow" 0 0 0
+}
+}
+// primitive 41
+{
+brushDef3
+{
+( 0 0 1 -369 ) ( ( 0.125 0 0 ) ( 0 0.125 0 ) ) "textures/bl/dev/16x16_blue" 0 0 0
+( 0 1 0 -298 ) ( ( 0.125 0 0 ) ( 0 0.125 0 ) ) "textures/bl/dev/16x16_blue" 0 0 0
+( 1 0 0 -557 ) ( ( 0.125 0 2 ) ( 0 0.125 0 ) ) "textures/bl/dev/16x16_blue" 0 0 0
+( 0 0 -1 366 ) ( ( 0.125 0 0 ) ( 0 0.125 0 ) ) "textures/bl/dev/16x16_blue" 0 0 0
+( 0 -1 0 -253 ) ( ( 0.125 0 0 ) ( 0 0.125 0 ) ) "textures/bl/dev/16x16_blue" 0 0 0
+( -1 0 0 160 ) ( ( 0.125 0 0.375 ) ( 0 0.125 0.375 ) ) "textures/bl/dev/16x16_blue" 0 0 0
+}
+}
+// primitive 42
+{
+brushDef3
+{
+( 0 0 1 -369 ) ( ( 0.125 0 0 ) ( 0 0.125 0 ) ) "textures/bl/dev/16x16_cian" 0 0 0
+( 0 1 0 254 ) ( ( 0.125 0 14 ) ( 0 0.125 0 ) ) "textures/bl/dev/16x16_cian" 0 0 0
+( 1 0 0 -459 ) ( ( 0.125 0 0 ) ( 0 0.125 0 ) ) "textures/bl/dev/16x16_cian" 0 0 0
+( 0 0 -1 366 ) ( ( 0.125 0 0 ) ( 0 0.125 0 ) ) "textures/bl/dev/16x16_cian" 0 0 0
+( 0 -1 0 -322 ) ( ( 0.125 0 0 ) ( 0 0.125 0 ) ) "textures/bl/dev/16x16_cian" 0 0 0
+( -1 0 0 155 ) ( ( 0.125 0 15.25 ) ( 0 0.125 0 ) ) "textures/bl/dev/16x16_cian" 0 0 0
+}
+}
+}
+// entity 1
+{
+"classname" "info_player_start"
+"name" "info_player_start_1"
+"angle" "90"
+"origin" "-488 8 400"
+}
+// entity 2
+{
+"classname" "light"
+"name" "light_1"
+"light_center" "0 0 0"
+"light_radius" "320 320 320"
+"origin" "-840 16 336"
+}
+// entity 3
+{
+"classname" "light"
+"name" "light_3"
+"light_center" "0 0 0"
+"light_radius" "60860 54127 56232"
+"origin" "-445 12 822"
+}
+// entity 4
+{
+"classname" "light"
+"name" "light_4"
+"light_center" "0 0 0"
+"light_radius" "320 320 320"
+"origin" "-584 16 192"
+}
+// entity 5
+{
+"classname" "light"
+"name" "light_2"
+"light_center" "0 0 0"
+"light_radius" "320 320 320"
+"origin" "-424 16 336"
+}
+// entity 6
+{
+"classname" "alphalabs3_fragchamber_scientist"
+"name" "alphalabs3_fragchamber_scientist_1"
+"origin" "-353.407 -63.2418 232"
+"rotation" "-0.672703 0.739912 0 -0.739912 -0.672703 0 0 0 1"
+}
+// entity 7
+{
+"classname" "func_static"
+"name" "func_static_1"
+"model" "models/mapobjects/base/misc/fireext.ase"
+"origin" "-920 -64 304"
+"rotation" "-0.999761 -0.0218898 0 0.0218898 -0.999761 0 0 0 1"
+}
+// entity 8
+{
+"classname" "func_static"
+"name" "func_static_7"
+"model" "models/mapobjects/tables/conf_table/conf_table.lwo"
+"origin" "-857 -150 8"
+}
+// entity 9
+{
+"classname" "func_static"
+"name" "func_static_15"
+"model" "models/mapobjects/base/chairs/chair2.ase"
+"origin" "-626 -204 8"
+"rotation" "-0.999912 -0.0132625 0 0.0132625 -0.999912 0 0 0 1"
+}
+// entity 10
+{
+"classname" "delta2a_scientist"
+"name" "delta2a_scientist_15"
+"origin" "-622.947 -208.803 8"
+"rotation" "-0.00892172 -0.99996 0 0.99996 -0.00892172 0 0 0 1"
+}
+// entity 11
+{
+"classname" "func_static"
+"name" "func_static_19"
+"model" "models/mapobjects/base/chairs/chair2.ase"
+"origin" "-680 -203 8"
+"rotation" "-0.999912 -0.0132625 0 0.0132625 -0.999912 0 0 0 1"
+}
+// entity 12
+{
+"classname" "func_static"
+"name" "func_static_38"
+"model" "models/mapobjects/base/chairs/chair2.ase"
+"origin" "-375 180 8"
+"rotation" "-0.999912 -0.0132625 0 0.0132625 -0.999912 0 0 0 1"
+}
+// entity 13
+{
+"classname" "func_static"
+"name" "func_static_39"
+"model" "models/mapobjects/base/chairs/chair2.ase"
+"origin" "-429 181 8"
+"rotation" "-0.999912 -0.0132625 0 0.0132625 -0.999912 0 0 0 1"
+}
+// entity 14
+{
+"classname" "delta2a_scientist"
+"name" "delta2a_scientist_31"
+"origin" "-425.947 176.197 8"
+"rotation" "-0.00892172 -0.99996 0 0.99996 -0.00892172 0 0 0 1"
+}
+// entity 15
+{
+"classname" "func_static"
+"name" "func_static_40"
+"model" "models/mapobjects/base/chairs/chair2.ase"
+"origin" "-370 255 8"
+"rotation" "0.999014 0.0443703 0 -0.0443703 0.999014 0 0 0 1"
+}
+// entity 16
+{
+"classname" "func_static"
+"name" "func_static_41"
+"model" "models/mapobjects/tables/conf_table/conf_table.lwo"
+"origin" "-398 221 8"
+}
+// entity 17
+{
+"classname" "func_static"
+"name" "func_static_42"
+"model" "models/mapobjects/base/chairs/chair2.ase"
+"origin" "-426 261 8"
+"rotation" "0.999014 0.0443703 0 -0.0443703 0.999014 0 0 0 1"
+}
+// entity 18
+{
+"classname" "delta2a_scientist"
+"name" "delta2a_scientist_32"
+"origin" "-320.294 216.431 8"
+"rotation" "0.995113 -0.0987346 0 0.0987346 0.995113 0 0 0 1"
+}
+// entity 19
+{
+"classname" "delta2a_scientist"
+"name" "delta2a_scientist_33"
+"origin" "-425.805 267.39 8"
+"rotation" "-0.0221986 0.999753 0 -0.999753 -0.0221986 0 0 0 1"
+}
+// entity 20
+{
+"classname" "func_static"
+"name" "func_static_43"
+"model" "models/mapobjects/base/chairs/chair2.ase"
+"origin" "-328 217 8"
+"rotation" "-0.076636 -0.997058 0 0.997058 -0.076636 0 0 0 1"
+}
+// entity 21
+{
+"classname" "delta2a_scientist"
+"name" "delta2a_scientist_34"
+"origin" "-371.947 175.197 8"
+"rotation" "-0.00892172 -0.99996 0 0.99996 -0.00892172 0 0 0 1"
+}
+// entity 22
+{
+"classname" "delta2a_scientist"
+"name" "delta2a_scientist_35"
+"origin" "-369.805 261.39 8"
+"rotation" "-0.0221986 0.999753 0 -0.999753 -0.0221986 0 0 0 1"
+}
+// entity 23
+{
+"classname" "func_static"
+"name" "func_static_44"
+"model" "models/mapobjects/base/chairs/chair2.ase"
+"origin" "-440 -31 8"
+"rotation" "-0.999912 -0.0132625 0 0.0132625 -0.999912 0 0 0 1"
+}
+// entity 24
+{
+"classname" "delta2a_scientist"
+"name" "delta2a_scientist_36"
+"origin" "-434.805 50.39 8"
+"rotation" "-0.0221986 0.999753 0 -0.999753 -0.0221986 0 0 0 1"
+}
+// entity 25
+{
+"classname" "func_static"
+"name" "func_static_45"
+"model" "models/mapobjects/base/chairs/chair2.ase"
+"origin" "-435 44 8"
+"rotation" "0.999014 0.0443703 0 -0.0443703 0.999014 0 0 0 1"
+}
+// entity 26
+{
+"classname" "func_static"
+"name" "func_static_46"
+"model" "models/mapobjects/tables/conf_table/conf_table.lwo"
+"origin" "-463 10 8"
+}
+// entity 27
+{
+"classname" "func_static"
+"name" "func_static_47"
+"model" "models/mapobjects/base/chairs/chair2.ase"
+"origin" "-491 50 8"
+"rotation" "0.999014 0.0443703 0 -0.0443703 0.999014 0 0 0 1"
+}
+// entity 28
+{
+"classname" "delta2a_scientist"
+"name" "delta2a_scientist_37"
+"origin" "-385.294 5.431 8"
+"rotation" "0.995113 -0.0987346 0 0.0987346 0.995113 0 0 0 1"
+}
+// entity 29
+{
+"classname" "func_static"
+"name" "func_static_48"
+"model" "models/mapobjects/base/chairs/chair2.ase"
+"origin" "-494 -30 8"
+"rotation" "-0.999912 -0.0132625 0 0.0132625 -0.999912 0 0 0 1"
+}
+// entity 30
+{
+"classname" "delta2a_scientist"
+"name" "delta2a_scientist_38"
+"origin" "-490.947 -34.803 8"
+"rotation" "-0.00892172 -0.99996 0 0.99996 -0.00892172 0 0 0 1"
+}
+// entity 31
+{
+"classname" "delta2a_scientist"
+"name" "delta2a_scientist_39"
+"origin" "-490.805 56.39 8"
+"rotation" "-0.0221986 0.999753 0 -0.999753 -0.0221986 0 0 0 1"
+}
+// entity 32
+{
+"classname" "func_static"
+"name" "func_static_49"
+"model" "models/mapobjects/base/chairs/chair2.ase"
+"origin" "-393 6 8"
+"rotation" "-0.076636 -0.997058 0 0.997058 -0.076636 0 0 0 1"
+}
+// entity 33
+{
+"classname" "delta2a_scientist"
+"name" "delta2a_scientist_40"
+"origin" "-436.947 -35.803 8"
+"rotation" "-0.00892172 -0.99996 0 0.99996 -0.00892172 0 0 0 1"
+}
+// entity 34
+{
+"classname" "func_static"
+"name" "func_static_50"
+"model" "models/mapobjects/base/chairs/chair2.ase"
+"origin" "-394 -179 8"
+"rotation" "-0.076636 -0.997058 0 0.997058 -0.076636 0 0 0 1"
+}
+// entity 35
+{
+"classname" "delta2a_scientist"
+"name" "delta2a_scientist_41"
+"origin" "-437.947 -220.803 8"
+"rotation" "-0.00892172 -0.99996 0 0.99996 -0.00892172 0 0 0 1"
+}
+// entity 36
+{
+"classname" "delta2a_scientist"
+"name" "delta2a_scientist_42"
+"origin" "-435.805 -134.61 8"
+"rotation" "-0.0221986 0.999753 0 -0.999753 -0.0221986 0 0 0 1"
+}
+// entity 37
+{
+"classname" "func_static"
+"name" "func_static_51"
+"model" "models/mapobjects/base/chairs/chair2.ase"
+"origin" "-441 -216 8"
+"rotation" "-0.999912 -0.0132625 0 0.0132625 -0.999912 0 0 0 1"
+}
+// entity 38
+{
+"classname" "delta2a_scientist"
+"name" "delta2a_scientist_43"
+"origin" "-491.947 -219.803 8"
+"rotation" "-0.00892172 -0.99996 0 0.99996 -0.00892172 0 0 0 1"
+}
+// entity 39
+{
+"classname" "delta2a_scientist"
+"name" "delta2a_scientist_44"
+"origin" "-491.805 -128.61 8"
+"rotation" "-0.0221986 0.999753 0 -0.999753 -0.0221986 0 0 0 1"
+}
+// entity 40
+{
+"classname" "func_static"
+"name" "func_static_52"
+"model" "models/mapobjects/base/chairs/chair2.ase"
+"origin" "-495 -215 8"
+"rotation" "-0.999912 -0.0132625 0 0.0132625 -0.999912 0 0 0 1"
+}
+// entity 41
+{
+"classname" "func_static"
+"name" "func_static_53"
+"model" "models/mapobjects/tables/conf_table/conf_table.lwo"
+"origin" "-464 -175 8"
+}
+// entity 42
+{
+"classname" "func_static"
+"name" "func_static_54"
+"model" "models/mapobjects/base/chairs/chair2.ase"
+"origin" "-492 -135 8"
+"rotation" "0.999014 0.0443703 0 -0.0443703 0.999014 0 0 0 1"
+}
+// entity 43
+{
+"classname" "delta2a_scientist"
+"name" "delta2a_scientist_45"
+"origin" "-386.294 -179.569 8"
+"rotation" "0.995113 -0.0987346 0 0.0987346 0.995113 0 0 0 1"
+}
+// entity 44
+{
+"classname" "func_static"
+"name" "func_static_55"
+"model" "models/mapobjects/base/chairs/chair2.ase"
+"origin" "-436 -141 8"
+"rotation" "0.999014 0.0443703 0 -0.0443703 0.999014 0 0 0 1"
+}
+// entity 45
+{
+"classname" "monster_skeleton_bernie"
+"name" "monster_skeleton_bernie_1"
+"origin" "317 0 453"
+}
+// entity 46
+{
+"classname" "monster_skeleton_bernie"
+"name" "monster_skeleton_bernie_2"
+"origin" "423 0 453"
+}
+// entity 47
+{
+"classname" "monster_skeleton_bernie"
+"name" "monster_skeleton_bernie_3"
+"origin" "216 0 453"
+}
+// entity 48
+{
+"classname" "monster_skeleton_bernie"
+"name" "monster_skeleton_bernie_4"
+"origin" "219 0 367"
+}
+// entity 49
+{
+"classname" "monster_skeleton_bernie"
+"name" "monster_skeleton_bernie_5"
+"origin" "276 0 372"
+}
+// entity 50
+{
+"classname" "func_static"
+"name" "func_static_2"
+"model" "models/ampolla2.ase"
+"origin" "322 0 402"
+}
+// entity 51
+{
+"classname" "func_static"
+"name" "func_static_3"
+"model" "models/mapobjects/base/chairs/chair5.ase"
+"origin" "395 0 375"
+}
+// entity 52
+{
+"classname" "func_static"
+"name" "func_static_4"
+"model" "models/mapobjects/lab/compcart/compcart.lwo"
+"origin" "496 0 12"
+}
+// entity 53
+{
+"classname" "func_static"
+"name" "func_static_5"
+"model" "models/mapobjects/lab/cube1/cube1_2.lwo"
+"origin" "206 0 4"
+}
+// entity 54
+{
+"classname" "func_static"
+"name" "func_static_6"
+"model" "models/mapobjects/lab/filecabinet1/filecabinet1.lwo"
+"origin" "345 -3 4"
+}
+// entity 55
+{
+"classname" "func_static"
+"name" "func_static_8"
+"model" "models/mapobjects/lab/tablecart2/tablecart2.lwo"
+"origin" "423 -3 9"
+}
+// entity 56
+{
+"classname" "func_static"
+"name" "func_static_9"
+"model" "models/mapobjects/lab/tablecart2/tablecart2.lwo"
+"origin" "384 -3 9"
+}
+// entity 57
+{
+"classname" "func_static"
+"name" "func_static_10"
+"model" "models/mapobjects/lab/tablecart2/tablecart2.lwo"
+"origin" "462 -3 4"
+}
+// entity 58
+{
+"classname" "func_static"
+"name" "func_static_11"
+"model" "models/mapobjects/lab/gizmo2/gizmo2.lwo"
+"origin" "384 -3 51"
+}
+// entity 59
+{
+"classname" "func_static"
+"name" "func_static_12"
+"model" "models/mapobjects/lab/gizmo3/gizmo3.lwo"
+"origin" "428 -2 51"
+}
+// entity 60
+{
+"classname" "func_static"
+"name" "func_static_13"
+"model" "models/mapobjects/lab/hydrocon/hydrocon.lwo"
+"origin" "522 -2 106"
+}
+// entity 61
+{
+"classname" "func_static"
+"name" "func_static_14"
+"model" "models/mapobjects/kiosk/infokiosk2.lwo"
+"origin" "288 5 8"
+}
